@@ -1,0 +1,10 @@
+2024-01-01,Laptop,45000,Delhi
+2024-01-01,Mouse,1500,Mumbai
+2024-01-02,Keyboard,3500,Bangalore
+2024-01-02,Laptop,45000,Chennai
+2024-01-03,Mouse,1500,Delhi
+2024-01-03,Monitor,25000,Mumbai
+2024-01-04,Laptop,45000,Bangalore
+2024-01-04,Keyboard,3500,Delhi
+2024-01-05,Monitor,25000,Chennai
+2024-01-05,Mouse,1500,Mumbai
