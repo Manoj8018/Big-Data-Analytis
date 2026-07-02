@@ -38,7 +38,7 @@ Big-Data-Analytis/
 
 ---
 
-# Exercise 1 - Weather Data Analysis
+# Exercise 6 - Weather Data Analysis
 
 ### Objective
 
@@ -70,7 +70,7 @@ Coldest Day: 2024-01-03 with 10.0°C
 
 ---
 
-# Exercise 2 - Sales Analysis
+# Exercise 7 - Sales Analysis
 
 ### Objective
 
