@@ -1,0 +1,24 @@
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    hostname: cassandra
+
+    ports:
+      - "9042:9042"
+      - "9160:9160"
+
+    volumes:
+      - "./cassandra-data:/var/lib/cassandra"
+      - "./scripts:/scripts"
+
+    environment:
+      - CASSANDRA_CLUSTER_NAME=MyCluster
+      - CASSANDRA_DC=datacenter1
+      - CASSANDRA_RACK=rack1
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+      - CASSANDRA_NUM_TOKENS=256
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+
+    restart: unless-stopped
