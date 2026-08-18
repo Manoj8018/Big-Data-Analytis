@@ -1,1 +1,6 @@
 Hello Hadoop
+Hello Spark
+Big Data is powerful
+Spark is powerful
+Hello Big Datao
+Hello Hadoop
